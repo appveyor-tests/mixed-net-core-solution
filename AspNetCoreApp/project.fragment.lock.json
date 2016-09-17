@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "exports": {
+    "DotNetLibrary/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/DotNetLibrary.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/DotNetLibrary.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/DotNetLibrary.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}

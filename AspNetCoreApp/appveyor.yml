@@ -1,0 +1,29 @@
+version: 1.0.{build}
+
+build_script:
+
+- cmd: >-
+
+    cd %APPVEYOR_BUILD_FOLDER%\AppVeyorSolution
+
+
+
+
+
+    nuget restore
+
+
+
+
+
+    "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.com" AppVeyorSolution.sln /Build Release
+
+
+
+
+
+    cd %APPVEYOR_BUILD_FOLDER%\AppVeyorSolution\AspNetCoreApp\
+
+
+
+    dotnet publish -c Release
