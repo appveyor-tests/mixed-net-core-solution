@@ -1,5 +1,5 @@
 before_build:
 - nuget restore
-- rd /s /q "C:\Program Files\dotnet\sdk\1.0.1"
+#- rd /s /q "C:\Program Files\dotnet\sdk\1.0.1"
 
 test: off
